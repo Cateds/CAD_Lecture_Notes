@@ -2,7 +2,7 @@
 
 > For the course "***Circuit Analysis and Design***" in the 2024-2025 spring semester at University of Glasgow, UESTC.
 > 
-> **[Updated @ 2024-11-5]**
+> **[ Updated @ 2024-11-18 ]**
 
 ## Index
 
@@ -19,6 +19,7 @@
   - [Lecture 8 : Thevenin's Theorem（戴维南定理）](./Lecture8.md)
   - [Lecture 9 : Norton's Theorem（诺顿定理） & Maximum Power Transfer Theorem（最大功率传输定理）](./Lecture9.md)
 - Week 12
+  - [Lecture 10 : Capacitors（电容器）](./Lecture10.md)
   - > Not available now
 - Week 14
   - > Not available now
