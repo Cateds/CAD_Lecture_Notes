@@ -2,16 +2,14 @@
 
 > For the course "***Circuit Analysis and Design***" in the 2024-2025 spring semester at University of Glasgow, UESTC.
 > 
-> **[ Updated @ 2024-11-18 ]**
+> **[ Updated @ 2024-11-19 ]**
 
 ## Index
 
 - Week 4
-  - [1](./Lecture1.md)
-  - [2](./Lecture2.md)
-  - [3](./Lecture3.md)
+  - > Not done yet
 - Week 8
-  - [4](./Lecture4.md)
+  - > Not done yet
   - [Lecture 5 : Nodal Analysis（节点分析法） & Supernode（超节点）](./Lecture5.md)
   - [Lecture 6 : Mesh Analysis（网孔分析法） & Supermesh（超网孔）](./Lecture6.md)
 - Week 10
@@ -20,6 +18,7 @@
   - [Lecture 9 : Norton's Theorem（诺顿定理） & Maximum Power Transfer Theorem（最大功率传输定理）](./Lecture9.md)
 - Week 12
   - [Lecture 10 : Capacitors（电容器）](./Lecture10.md)
+  - [Lecture 11 : Inductors（电感器）](./Lecture11.md)
   - > Not available now
 - Week 14
   - > Not available now
