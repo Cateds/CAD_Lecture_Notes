@@ -2,7 +2,7 @@
 
 > For the course "***Circuit Analysis and Design***" in the 2024-2025 spring semester at University of Glasgow, UESTC.
 > 
-> **[ Updated @ 2024-11-19 ]**
+> **[ Updated @ 2024-11-20 ]**
 
 ## Index
 
@@ -19,7 +19,7 @@
 - Week 12
   - [Lecture 10 : Capacitors（电容器）](./Lecture10.md)
   - [Lecture 11 : Inductors（电感器）](./Lecture11.md)
-  - > Not available now
+  - [Lecture 12 : RC circuits（RC电路）](./Lecture12.md)
 - Week 14
   - > Not available now
 - Week 16
