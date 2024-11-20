@@ -36,7 +36,7 @@ $$
 v(t) = e^{\ln v(t)} = e^{-\frac{t}{RC} + C} = e^{-\frac{t}{RC}}\cdot e^C = A\cdot e^{-\frac{t}{RC}}
 $$
 
-由此，我们得出了RC电路的自然响应的表达式 $v(t)=A\cdot e^{-\frac{t}{RC}}$ 。其中，$A$ 是一个常数，它由初始条件决定。
+由此，我们得出了RC电路的自然响应的表达式 $v(t)=A\cdot e^{-\frac{t}{RC}}$ 。其中， $A$ 是一个常数，它由初始条件决定。
 
 当 $t=0$ 时， $v(0) = A\cdot e^0 = A$ ，即为电容器上的电压。
 
@@ -67,7 +67,7 @@ w_R(t) = \int_0^t p_R(\tau)d\tau = \int_0^t \frac{A^2}{R}\cdot e^{-\frac{2\tau}{
 = \frac{A^2}{R}\cdot \left[ -\frac{RC}{2}e^{-\frac{2\tau}{RC}} \right]_0^t = \frac{CA^2}{2}\cdot (1 - e^{-\frac{2t}{RC}})
 $$
 
-当 $t\rightarrow\infty$ 时，$w_R(t)\rightarrow\frac{CA^2}{2}$ ，即电容器上的能量全部转化为电阻上的热能。
+当 $t\rightarrow\infty$ 时， $w_R(t)\rightarrow\frac{CA^2}{2}$ ，即电容器上的能量全部转化为电阻上的热能。
 
 > 这里推导的所有表达式都是针对于 $t>0$ 的情况。
 >
@@ -146,7 +146,7 @@ $$
 v(t) = V_s + Ae^{-\frac{t}{RC}}, A=V_0-V_s
 $$
 
-综上，我们得到了RC电路的阶跃响应的表达式 $v(t)=V_s + (V_0-V_s)\cdot e^{-\frac{t}{RC}}$ 。其中，$V_s$ 是阶跃信号的幅值，$V_0$ 是电容器上的电压。
+综上，我们得到了RC电路的阶跃响应的表达式 $v(t)=V_s + (V_0-V_s)\cdot e^{-\frac{t}{RC}}$ 。其中， $V_s$ 是阶跃信号的幅值， $V_0$ 是电容器上的电压。
 
 同样的，时间常数 $\tau=RC$ 也可以用来描述RC电路的阶跃响应.
 
