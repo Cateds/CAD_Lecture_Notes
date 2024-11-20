@@ -67,11 +67,11 @@ w_R(t) = \int_0^t p_R(\tau)d\tau = \int_0^t \frac{A^2}{R}\cdot e^{-\frac{2\tau}{
 = \frac{A^2}{R}\cdot \left[ -\frac{RC}{2}e^{-\frac{2\tau}{RC}} \right]_0^t = \frac{CA^2}{2}\cdot (1 - e^{-\frac{2t}{RC}})
 $$
 
-当 $t\rightarrow\infin$ 时，$w_R(t)\rightarrow\frac{CA^2}{2}$ ，即电容器上的能量全部转化为电阻上的热能。
+当 $t\rightarrow\infty$ 时，$w_R(t)\rightarrow\frac{CA^2}{2}$ ，即电容器上的能量全部转化为电阻上的热能。
 
 > 这里推导的所有表达式都是针对于 $t>0$ 的情况。
 >
-> 有的时候，表达式会写成针对 $t\isin R$的情况，这时候会乘一个 $u(t)$ 。这个函数的定义是在 $t\geq 0$ 时为1，在 $t<0$ 时为0。
+> 有的时候，表达式会写成针对 $t \isin R$的情况，这时候会乘一个 $u(t)$ 。这个函数的定义是在 $t\geq 0$ 时为1，在 $t<0$ 时为0。
 
 > 另一点需要注意的是，RC电路的R和C可以是整个电路中等效的R和C，而并不一定是分立的电阻和电容元件。
 
@@ -86,11 +86,11 @@ $$
 因此，$v(t), i(t), p_C(t)$的表达式可以写成：
 
 $$
-v(t) = V_0\cdot e^{-\frac{t}{\tau}}\\
+v(t) = V_0\cdot e^{-\frac{t}{\tau}}
 $$
 
 $$
-i(t) = \frac{V_0}{R}\cdot e^{-\frac{t}{\tau}}\\
+i(t) = \frac{V_0}{R}\cdot e^{-\frac{t}{\tau}}
 $$
 
 $$
@@ -126,17 +126,23 @@ $$
 
 $$
 -V_s+RC\frac{dv(t)}{dt}+v(t)=0
-\\ \Rightarrow
+$$
+$$
 \frac{dv(t)}{dt}=\frac{-1}{RC}(v(t)-V_s)
-\\ \Rightarrow
+$$
+$$
 \frac{d(ln|v(t)-V_s|)}{dt}=\frac{-1}{RC}
-\\ \Rightarrow
+$$
+$$
 ln|v(t)-V_s|=-\frac{t}{RC}+K
-\\ \Rightarrow
+$$
+$$
 |v(t)-V_s|=e^{-\frac{t}{RC}+K} = e^{-\frac{t}{RC}}\cdot e^K
-\\ \Rightarrow
+$$
+$$
 v(t)-V_s = \pm e^K\cdot e^{-\frac{t}{RC}}
-\\ \Rightarrow
+$$
+$$
 v(t) = V_s + Ae^{-\frac{t}{RC}}, A=V_0-V_s
 $$
 
@@ -153,7 +159,7 @@ $$
 
 从图中可以看出，时间常数 $\tau$越大，则电路的响应速度越慢。在 $t=\tau$ 时，电压变化量的大小是 $\frac{V_0-V_s}{e}$ 。
 
-可以看出，当 $t\rightarrow\infin$ 时，$v(t)\rightarrow V_s$ ，即电容器上的电压最终会达到阶跃信号的大小。
+可以看出，当 $t\rightarrow\infty$ 时， $v(t)\rightarrow V_s$ ，即电容器上的电压最终会达到阶跃信号的大小。
 
 同样的，可以求得电路中的电流 $i(t)$ 和电容器上释放的功率 $p_C(t)$ ：
 
@@ -163,7 +169,7 @@ $$
 
 $$
 p_C(t) = v(t)\cdot i(t) = (V_s + (V_0-V_s)\cdot e^{-\frac{t}{\tau}})\cdot \frac{V_s + (V_0-V_s)\cdot e^{-\frac{t}{\tau}}}{R} 
-\\= \frac{(V_s+(V_0+V_s)\cdot e^{-\frac{t}{\tau}})^2}{R}
+= \frac{(V_s+(V_0+V_s)\cdot e^{-\frac{t}{\tau}})^2}{R}
 $$
 
 ---

@@ -43,12 +43,12 @@ $$
 \varepsilon = -N\frac{d\Phi}{dt} = -L\frac{dI}{dt}
 $$
 
-这里 $\varepsilon$ 是感应电动势，$L$ 是电感，$I$ 是电流。这个式子说明了电感产生的感应电动势的大小和电流的变化率有关。换句话说，电感会阻碍电流的变化。
+这里 $\varepsilon$ 是感应电动势， $L$ 是电感， $I$ 是电流。这个式子说明了电感产生的感应电动势的大小和电流的变化率有关。换句话说，电感会阻碍电流的变化。
 
 同理，上述式子也可以写成积分形式
 
 $$
-\frac{1}{L}\cdot\int_{-\infin}^t\varepsilon dt = i(t)
+\frac{1}{L}\cdot\int_{-\infty}^t\varepsilon dt = i(t)
 $$
 
 在电感上消耗的功率是：
@@ -60,7 +60,7 @@ $$
 它储存的能量是：
 
 $$
-w(t) = \int_{-\infin}^t p(\tau)d\tau = \frac{1}{2}Li^2
+w(t) = \int_{-\infty}^t p(\tau)d\tau = \frac{1}{2}Li^2
 $$
 
 ### 给电感通入交流信号
