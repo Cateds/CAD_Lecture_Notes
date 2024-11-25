@@ -1,7 +1,7 @@
 # Circuit Analysis and Design (CAD) Lecture Notes @ 2024-2025 Fall
 
 > For the course "***Circuit Analysis and Design***" in the 2024-2025 spring semester at University of Glasgow, UESTC.
-> 
+>
 > **[ Updated @ 2024-11-20 ]**
 
 ## Index
