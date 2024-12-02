@@ -86,7 +86,7 @@ $$
 ## Series and Parallel Connection of Inductors（电感器的串联和并联）
 
 > 仍然是在Physics II中学过的内容。
-> 
+>
 > 进行一个PPT的搬运。
 
 在电感串联时，通过其的电流是相同的，因此有
