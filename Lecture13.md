@@ -130,7 +130,7 @@ $$
 
 $$
 \tau = \frac{L}{R}
-$$d
+$$
 
 ![SR for Diff tau](Lecture13.assets/1733126302350.png)
 
