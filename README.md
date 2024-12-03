@@ -1,8 +1,10 @@
 # Circuit Analysis and Design (CAD) Lecture Notes @ 2024-2025 Fall
 
-> For the course "***Circuit Analysis and Design***" in the 2024-2025 spring semester at University of Glasgow, UESTC.
+> For the course ***`Circuit Analysis and Design`*** in the 2024-2025 spring semester at University of Glasgow, UESTC.
 >
-> **[ Updated @ 2024-12-2 ]**
+> **`[Updated @ 2024-12-3]`**
+>
+> 如果可以的话点个 ***Star*** 吧
 
 ## Index
 
@@ -22,6 +24,7 @@
   - [Lecture 12 : RC circuits（RC电路）](./Lecture12.md)
 - Week 14
   - [Lecture 13 : RL circuits（RL电路）](./Lecture13.md)
+  - [Lecture 14 : RLC circuits（RLC电路）](./Lecture14.md)
   - > Not available now
 - Week 16
   - > Not available now
