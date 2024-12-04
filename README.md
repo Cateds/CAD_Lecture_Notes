@@ -2,7 +2,7 @@
 
 > For the course ***`Circuit Analysis and Design`*** in the 2024-2025 fall semester at University of Glasgow, UESTC.
 >
-> **`[Updated @ 2024-12-3]`**
+> **`[Updated @ 2024-12-4]`**
 >
 > 如果可以的话点个 ***Star*** 吧
 
@@ -25,6 +25,6 @@
 - Week 14
   - [Lecture 13 : RL circuits（RL电路）](./Lecture13.md)
   - [Lecture 14 : RLC circuits（RLC电路）](./Lecture14.md)
-  - > Not available now
+  - [Lecture 15 : AC Circuits（交流电路）](./Lecture15.md)
 - Week 16
   - > Not available now
