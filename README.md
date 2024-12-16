@@ -2,7 +2,7 @@
 
 > For the course ***`Circuit Analysis and Design`*** in the 2024-2025 fall semester at University of Glasgow, UESTC.
 >
-> **`[Updated @ 2024-12-4]`**
+> **`[Updated @ 2024-12-16]`**
 >
 > 如果可以的话点个 ***Star*** 吧
 
