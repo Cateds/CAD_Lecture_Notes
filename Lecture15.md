@@ -10,7 +10,7 @@ $$
 v(t)=V_m\cos(\frac{2\pi}{T}t+\Phi)
 $$
 
-这个波形有三个参数：$V_m$ 是振幅，$T$ 是周期，$\Phi$ 是相位。
+这个波形有三个参数： $V_m$ 是振幅， $T$ 是周期， $\Phi$ 是相位。
 
 这个信号的频率 $f=\frac{1}{T}$ ，角频率 $\omega=2\pi f=\frac{2\pi}{T}$ 。
 
@@ -34,6 +34,7 @@ $$
 $$
 V_{ms}=\frac{1}{T}\int_{-\frac{T}{2}}^{\frac{T}{2}}v^2(t)dt=\frac{V_m^2}{2}+\frac{V_m^2}{2T}\frac{[\sin(2\omega t+2\theta_v)]^\frac{T}{2}_{-\frac{T}{2}}}{2\omega}
 $$
+
 $$
 \Rightarrow V_{ms}=\frac{V_m^2}{2}+\frac{V_m^2}{2T}\frac{\sin(2\theta_v)-\sin(2\theta_v)}{2\omega}=\frac{V_m^2}{2}
 $$
@@ -128,7 +129,7 @@ $$
 
 其中， ${Z}$ 的倒数称为导纳(admittance)，记作 ${Y}$ ，单位是西门子(Siemens)，记作 $S$ 。
 
-$[Y]$ 也是一个复数，可以写成：
+$Y$ 也是一个复数，可以写成：
 
 $$
 {Y}=G+jB
