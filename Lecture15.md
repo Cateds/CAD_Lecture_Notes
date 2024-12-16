@@ -20,7 +20,7 @@ $$
 v(t)=V_m\cos(\omega t+\Phi)
 $$
 
-相位 $\Phi$为正则信号整体左移，为负则信号整体右移。同样的， $\sin$ 函数也可以看作是 $\cos$ 函数提前了 $\frac{\pi}{4}$ 的结果
+相位 $\Phi$ 为正则信号整体左移，为负则信号整体右移。同样的， $\sin$ 函数也可以看作是 $\cos$ 函数提前了 $\frac{\pi}{4}$ 的结果
 
 ## RMS Value（均方根值）
 
@@ -65,9 +65,11 @@ $$
 $$
 V_m e^{i(\omega t+\Phi)}=V_m\cos(\omega t+\Phi)+jV_m\sin(\omega t+\Phi)
 $$
+
 $$
 Re[V_m e^{i(\omega t+\Phi)}]=V_m\cos(\omega t+\Phi)
 $$
+
 $$
 Im[V_m e^{i(\omega t+\Phi)}]=V_m\sin(\omega t+\Phi)
 $$
@@ -77,7 +79,7 @@ $$
 在开始位置时，有
 
 $$
-\bold{V} = V_me^{i\Phi} = V_m\angle\Phi
+{V} = V_me^{i\Phi} = V_m\angle\Phi
 $$
 
 一般来讲，信号的幅度(magnitude) $V_m$ 被认为是非负的。如果给定的幅度是负的，我们认为它代表一个 $\pi$ 的相位差。
@@ -102,16 +104,16 @@ $$
 
 如果一个正弦的输入信号传递给电阻、电容、电感，它的输出信号也是正弦信号，只是幅度和相位会发生变化。
 
-如果输入信号是 $v(t)$ ，同时输出信号是 $i(t)$ ，那么我们可以定义输入信号的复数形式为 $\bold{V}$ ，输出信号的复数形式为 $\bold{I}$ ，那么他们之间的关系可以表示为：
+如果输入信号是 $v(t)$ ，同时输出信号是 $i(t)$ ，那么我们可以定义输入信号的复数形式为 ${V}$ ，输出信号的复数形式为 ${I}$ ，那么他们之间的关系可以表示为：
 
 $$
-\bold{Z}=\frac{\bold{V}}{\bold{I}}
+{Z}=\frac{{V}}{{I}}
 $$
 
-$\bold{Z}$ 称为阻抗(impedance)，单位是欧姆。它是一个关于输入信号的频率的复数。我们通常把它写成
+${Z}$ 称为阻抗(impedance)，单位是欧姆。它是一个关于输入信号的频率的复数。我们通常把它写成
 
 $$
-\bold{Z}=R+jX
+{Z}=R+jX
 $$
 
 其中，R 是阻抗的实部，称为电阻(resistance)，单位是欧姆；X 是阻抗的虚部，称为电抗(reactance)，单位是欧姆。
@@ -121,15 +123,15 @@ $$
 对于相量，欧姆定律可以写成：
 
 $$
-\bold{Z} = \frac{\bold{V}}{\bold{I}}
+{Z} = \frac{{V}}{{I}}
 $$
 
-其中， $\bold{Z}$ 的倒数称为导纳(admittance)，记作 $\bold{Y}$ ，单位是西门子(Siemens)，记作 $S$ 。
+其中， ${Z}$ 的倒数称为导纳(admittance)，记作 ${Y}$ ，单位是西门子(Siemens)，记作 $S$ 。
 
-$\bold[Y]$ 也是一个复数，可以写成：
+$[Y]$ 也是一个复数，可以写成：
 
 $$
-\bold{Y}=G+jB
+{Y}=G+jB
 $$
 
 其中，G 是导纳的实部，称为电导(conductance)，单位是西门子；B 是导纳的虚部，称为电纳(susceptance)，单位是西门子。
@@ -147,10 +149,10 @@ $$
 所以，可以得出：
 
 $$
-\bold{Z}_R=R
+{Z}_R=R
 $$
 $$
-\bold{Y}_R=G=\frac{1}{R}
+{Y}_R=G=\frac{1}{R}
 $$
 
 ![Resistor](Lecture15.assets/1733317530521.png)
@@ -163,21 +165,21 @@ $$
 i(t)=C\frac{dv(t)}{dt}
 $$
 $$
-v(t)=Re[\bold{V} e^{i\omega t}],
-\bold{V}=V_m e^{i\Phi}=V_m\angle\Phi
+v(t)=Re[{V} e^{i\omega t}],
+{V}=V_m e^{i\Phi}=V_m\angle\Phi
 $$
 $$
-i(t)=Re[\bold{I} e^{i\omega t}],
-\bold{I}=(j\omega C)\bold{V}
+i(t)=Re[{I} e^{i\omega t}],
+{I}=(j\omega C){V}
 $$
 
 可得：
 
 $$
-\bold{Y}_C=j\omega C
+{Y}_C=j\omega C
 $$
 $$
-\bold{Z}_C=\frac{1}{j\omega C}=-\frac{j}{\omega C}=\frac{1}{\omega C}\angle-\frac{\pi}{2}
+{Z}_C=\frac{1}{j\omega C}=-\frac{j}{\omega C}=\frac{1}{\omega C}\angle-\frac{\pi}{2}
 $$
 
 ![Capacitor](Lecture15.assets/1733317546766.png)
@@ -190,21 +192,21 @@ $$
 v(t)=L\frac{di(t)}{dt}
 $$
 $$
-v(t)=Re[\bold{V} e^{i\omega t}],
-\bold{V}=V_m e^{i\Phi}=V_m\angle\Phi
+v(t)=Re[{V} e^{i\omega t}],
+{V}=V_m e^{i\Phi}=V_m\angle\Phi
 $$
 $$
-i(t)=\frac{1}{L}\int_{-\infty}^{t}v(\lambda)d\lambda = Re[V_me^{j\Phi}e^{j\omega t}]=Re[\bold{I} e^{j\omega t}],
-\bold{I}=(j\omega L)\bold{V}
+i(t)=\frac{1}{L}\int_{-\infty}^{t}v(\lambda)d\lambda = Re[V_me^{j\Phi}e^{j\omega t}]=Re[{I} e^{j\omega t}],
+{I}=(j\omega L){V}
 $$
 
 可得：
 
 $$
-\bold{Z}_L=j\omega L
+{Z}_L=j\omega L
 $$
 $$
-\bold{Y}_L=\frac{1}{j\omega L}=-\frac{j}{\omega L}=\frac{1}{\omega L}\angle-\frac{\pi}{2}
+{Y}_L=\frac{1}{j\omega L}=-\frac{j}{\omega L}=\frac{1}{\omega L}\angle-\frac{\pi}{2}
 $$
 
 ![Inductor](Lecture15.assets/1733317737818.png)
