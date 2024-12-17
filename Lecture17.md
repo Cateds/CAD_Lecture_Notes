@@ -201,7 +201,7 @@ $$
 
 ![Filter Design](Lecture17.assets/1734428196930.png)
 
-![Filter Design](Lecture17.assets/1734428164126.png)
+![Filter Design](Lecture17.assets/1734428160597.png)
 
 ## 带宽与品质因数的关系
 
