@@ -108,12 +108,14 @@ Q = \frac{\omega_0}{\omega_{3dB}} = \frac{L}{R}\omega_0 = \frac{1}{R}\sqrt{\frac
 $$
 
 截止频率也可以用Q表示：
+
 $$
 \omega_1 = -\frac{\omega_0}{2Q}+\frac{\omega_0}{2Q}\sqrt{4Q^2+1},
 \omega_2 = \frac{\omega_0}{2Q}+\frac{\omega_0}{2Q}\sqrt{4Q^2+1}
 $$
 
 因此，在 $Q \gg 1$ 时，有:
+
 $$
 \omega_1 \approx \omega_0-\frac{\omega_{3dB}}{2}, \omega_2 \approx \omega_0 + \frac{\omega_{3dB}}{2}
 $$
