@@ -28,4 +28,5 @@
   - [Lecture 15 : AC Circuits（交流电路）](./Lecture15.md)
 - Week 16
   - [Lecture 16 : First-Order Filters（一阶滤波器）](./Lecture16.md)
+  - [Lecture 17 : Second-Order Filters（二阶滤波器）](./Lecture17.md)
   - > Not available now
