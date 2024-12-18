@@ -10,6 +10,8 @@
 
 - Week 4
   - > Not done yet
+  - [Lecture 2 : Source（电源） & Element Signals（基本信号）](./Lecture2.md) **[Not Done]**
+  - > Not done yet
 - Week 8
   - > Not done yet
   - [Lecture 5 : Nodal Analysis（节点分析法） & Supernode（超节点）](./Lecture5.md)
