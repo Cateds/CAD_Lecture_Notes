@@ -2,7 +2,7 @@
 
 > For the course ***`Circuit Analysis and Design`*** in the 2024-2025 fall semester at University of Glasgow, UESTC.
 >
-> **`[Updated @ 2024-12-17]`**
+> **`[Updated @ 2024-12-18]`**
 >
 > 如果可以的话点个 ***Star*** 吧
 
@@ -29,4 +29,4 @@
 - Week 16
   - [Lecture 16 : First-Order Filters（一阶滤波器）](./Lecture16.md)
   - [Lecture 17 : Second-Order Filters（二阶滤波器）](./Lecture17.md)
-  - > Not available now
+  - [Lecture 18 : Operational Amplifiers（运算放大器）](./Lecture18.md)
