@@ -25,7 +25,7 @@ $$
 ## RMS Value（均方根值）
 
 对于一个正弦信号 $v(t)=V_m\cos(\omega t +
-\theta_v)$ ，它的峰值(peak amptitude)是 $V_p=V_m$ ，峰峰值(peak-to-peak amptitude)是 $V_{p-p}=2V_m$。
+\theta_v)$ ，它的峰值(peak amplitude)是 $V_p=V_m$ ，峰峰值(peak-to-peak amplitude)是 $V_{p-p}=2V_m$。
 
 对于 $v(t)$ 的有效值，定义是他的均方根值
 
