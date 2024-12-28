@@ -118,7 +118,7 @@ $$
 将顺时针看作压降的正方向，根据KVL，可以写出网孔方程：
 
 $$
--V_s + i(t)\cdot R + v(t) = 0\\
+-V_s + i(t)\cdot R + v(t) = 0,
 i(t)=C\frac{dv(t)}{dt}
 $$
 
