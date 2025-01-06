@@ -12,7 +12,7 @@
 
 - Week 4
   - > Not done yet
-  - [Lecture 2 : Source（电源） & Element Signals（基本信号）](./Lecture2.md) **[Not Done]**
+  - [Lecture 2 : Source（电源） & Element Signals（基本信号）](./Lecture2.md)
   - > Not done yet
 - Week 8
   - > Not done yet

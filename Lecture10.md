@@ -51,7 +51,7 @@ $$
 i(t) = C\cdot\frac{dv(t)}{dt} = -CA\omega\sin(\omega t) = CA\omega\cos(\omega t + \frac{\pi}{2})
 $$
 
-由此可见，电容器的电流和电压之间的相位差是 $\frac{\pi}{2}$ ，并且电流的相位比典雅的相位要领先。
+由此可见，电容器的电流和电压之间的相位差是 $\frac{\pi}{2}$ ，并且电流的相位比电压的相位要领先。
 
 两者的幅值之比是 $\frac{1}{C\omega}$ 。这说明电容器的阻抗与通过其的电流频率成正比，即 $Z_C = \frac{1}{j\omega C}$ 。
 
@@ -63,7 +63,7 @@ $$
 
 总的来说，电容器在直流时相当于开路，而在极高频时相当于短路。
 
-## Series and Parallel Connection of Capacitors（电容器的串联和并联）   
+## Series and Parallel Connection of Capacitors（电容器的串联和并联）
 
 > 此事在Physics II中已经学过，这里就不再赘述了。
 
