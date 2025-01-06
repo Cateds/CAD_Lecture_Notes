@@ -98,7 +98,7 @@ $$
 因此，通带带宽为：
 
 $$
-\omega_{3dB} = \omega_2 - \omega_1 = \frac{R}{L}\sqrt{\frac{1}{LC}}
+\omega_{3dB} = \omega_2 - \omega_1 = \frac{R}{L}
 $$
 
 带通滤波器的品质因数定义为其中心频率与通带带宽的比值：
