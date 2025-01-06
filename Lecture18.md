@@ -131,7 +131,8 @@ $$
 列写节点分析方程，解出方程可以得到：
 
 $$
-v_o = \frac{1}{\frac{1}{R_1}+\dots+\frac{1}{R_{N+1}}}\frac{R_{N+2}+R_{N+3}}{R_{N+2}}(\frac{v_1}{R_1}+\dots+\frac{v_N}{R_N})$$
+v_o = \frac{1}{\frac{1}{R_1}+\dots+\frac{1}{R_{N+1}}}\frac{R_{N+2}+R_{N+3}}{R_{N+2}}(\frac{v_1}{R_1}+\dots+\frac{v_N}{R_N})
+$$
 
 ### Difference Amplifier (差分放大器)
 
@@ -148,9 +149,7 @@ $$
     \frac{v_p-v_2}{R_3} + \frac{v_p}{R_4} = 0
 \end{cases}
 $$
-
 解得：
-
 $$
 v_o = (\frac{R_1+R_2}{R_1})(\frac{R_4}{R_3+R_4})v_2-\frac{R_2}{R_1}v_1
 $$
