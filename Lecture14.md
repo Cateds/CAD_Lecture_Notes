@@ -14,7 +14,7 @@ $$
 
 > 对，我懂，死去的大一上复习了半个月**最后没考**的二阶常微分方程解法突然开始攻击我
 >
-> 跟详细的讲解请查阅 *Thomas' Calculus @ Chapter 17* 或者 *Physics I* 的**阻尼振动**部分。
+> 更详细的讲解请查阅 *Thomas' Calculus @ Chapter 17* 或者 *Physics I* 的**阻尼振动**部分。
 >
 > 或者一步直达 [布布的高数教室：二阶常系数非齐次线性微分方程](https://www.bilibili.com/video/BV11a411p7Xq)
 
