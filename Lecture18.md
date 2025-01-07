@@ -97,7 +97,7 @@ $$
 这样，最终的输出就是：
 
 $$
-v_o = -(\frac{R_f}{R_1}v_1+\frac{R_f}{R_2}v_2+\frac{R_f}{R_3}v_3)
+v_o = -(\frac{R_f}{R_1}v_1+\frac{R_f}{R_2}v_2+\dots+\frac{R_f}{R_n}v_n)
 $$
 
 #### Non-inverting Summing Amplifier (同相求和放大器)
